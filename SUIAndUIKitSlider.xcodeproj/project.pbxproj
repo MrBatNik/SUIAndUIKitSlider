@@ -11,6 +11,7 @@
 		1B84F64F27A7DF5600B8DFD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B84F64E27A7DF5600B8DFD2 /* ContentView.swift */; };
 		1B84F65127A7DF5700B8DFD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B84F65027A7DF5700B8DFD2 /* Assets.xcassets */; };
 		1B84F65427A7DF5700B8DFD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B84F65327A7DF5700B8DFD2 /* Preview Assets.xcassets */; };
+		1B84F65B27A7E3E200B8DFD2 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B84F65A27A7E3E200B8DFD2 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1B84F64E27A7DF5600B8DFD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B84F65027A7DF5700B8DFD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B84F65327A7DF5700B8DFD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B84F65A27A7E3E200B8DFD2 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1B84F64C27A7DF5600B8DFD2 /* SUIAndUIKitSliderApp.swift */,
 				1B84F64E27A7DF5600B8DFD2 /* ContentView.swift */,
+				1B84F65A27A7E3E200B8DFD2 /* SliderView.swift */,
 				1B84F65027A7DF5700B8DFD2 /* Assets.xcassets */,
 				1B84F65227A7DF5700B8DFD2 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B84F65B27A7E3E200B8DFD2 /* SliderView.swift in Sources */,
 				1B84F64F27A7DF5600B8DFD2 /* ContentView.swift in Sources */,
 				1B84F64D27A7DF5600B8DFD2 /* SUIAndUIKitSliderApp.swift in Sources */,
 			);

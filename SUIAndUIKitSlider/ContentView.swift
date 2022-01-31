@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var targetValue = Int.random(in: 0...100)
+    @State private var currentValue = 50
+    @State private var isPresented = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(spacing: 32) {
+            Text("Подвиньте слайдер, как можно ближе к: \(targetValue)")
+            Button("Проверь меня!") {
+                isPresented = true
+            }
+            .alert("Your Score", isPresented: $isPresented, actions: {}) {
+                
+            }
+            Button("Начать заново") {
+                targetValue = Int.random(in: 0...100)
+            }
+        }
     }
 }
 
