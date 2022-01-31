@@ -31,7 +31,6 @@ struct ContentView: View {
             }
             Button("Начать заново") {
                 targetValue = Int.random(in: 0...100)
-                currentValue = 50.0
             }
         }
         .padding()
